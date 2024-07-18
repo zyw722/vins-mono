@@ -1,0 +1,283 @@
+[5.380s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/zhangyuanwei/slamworks/vins-mono-catkin_ws']
+[5.380s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], base_paths=['/home/zhangyuanwei/slamworks/vins-mono-catkin_ws'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f0265c59d60>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f0265c59d60>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f0265b8eb80>)
+[5.548s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.548s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.548s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.548s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.548s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.548s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/zhangyuanwei/slamworks/vins-mono-catkin_ws'
+[5.549s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws) by extensions ['ignore', 'ignore_ament_install']
+[5.549s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws) by extension 'ignore'
+[5.549s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws) by extension 'ignore_ament_install'
+[5.549s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws) by extensions ['colcon_pkg']
+[5.549s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws) by extension 'colcon_pkg'
+[5.549s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws) by extensions ['colcon_meta']
+[5.549s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws) by extension 'colcon_meta'
+[5.549s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws) by extensions ['ros']
+[5.549s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws) by extension 'ros'
+[5.682s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws) by extensions ['cmake', 'python']
+[5.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws) by extension 'cmake'
+[5.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws) by extension 'python'
+[5.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws) by extensions ['python_setup_py']
+[5.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws) by extension 'python_setup_py'
+[5.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[5.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/build) by extension 'ignore'
+[5.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/build) by extension 'ignore_ament_install'
+[5.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/build) by extensions ['colcon_pkg']
+[5.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/build) by extension 'colcon_pkg'
+[5.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/build) by extensions ['colcon_meta']
+[5.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/build) by extension 'colcon_meta'
+[5.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/build) by extensions ['ros']
+[5.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/build) by extension 'ros'
+[5.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/build) ignored
+[5.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/devel) by extensions ['ignore', 'ignore_ament_install']
+[5.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/devel) by extension 'ignore'
+[5.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/devel) by extension 'ignore_ament_install'
+[5.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/devel) ignored
+[5.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[5.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/log) by extension 'ignore'
+[5.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/log) ignored
+[5.685s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[5.685s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src) by extension 'ignore'
+[5.685s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src) by extension 'ignore_ament_install'
+[5.685s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src) by extensions ['colcon_pkg']
+[5.685s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src) by extension 'colcon_pkg'
+[5.685s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src) by extensions ['colcon_meta']
+[5.685s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src) by extension 'colcon_meta'
+[5.685s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src) by extensions ['ros']
+[5.685s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src) by extension 'ros'
+[5.685s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src) by extensions ['cmake', 'python']
+[5.685s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src) by extension 'cmake'
+[5.832s] WARNING:colcon.colcon_cmake.package_identification.cmake:Ignoring '/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/CMakeLists.txt' since it seems to be a toplevel CMake file generated by 'catkin_make'
+[5.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src) by extension 'python'
+[5.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src) by extensions ['python_setup_py']
+[5.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src) by extension 'python_setup_py'
+[5.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono) by extensions ['ignore', 'ignore_ament_install']
+[5.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono) by extension 'ignore'
+[5.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono) by extension 'ignore_ament_install'
+[5.833s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono) by extensions ['colcon_pkg']
+[5.833s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono) by extension 'colcon_pkg'
+[5.833s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono) by extensions ['colcon_meta']
+[5.833s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono) by extension 'colcon_meta'
+[5.833s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono) by extensions ['ros']
+[5.833s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono) by extension 'ros'
+[5.833s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono) by extensions ['cmake', 'python']
+[5.833s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono) by extension 'cmake'
+[5.833s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono) by extension 'python'
+[5.833s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono) by extensions ['python_setup_py']
+[5.833s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono) by extension 'python_setup_py'
+[5.833s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/ar_demo) by extensions ['ignore', 'ignore_ament_install']
+[5.833s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/ar_demo) by extension 'ignore'
+[5.834s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/ar_demo) by extension 'ignore_ament_install'
+[5.834s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/ar_demo) by extensions ['colcon_pkg']
+[5.834s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/ar_demo) by extension 'colcon_pkg'
+[5.834s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/ar_demo) by extensions ['colcon_meta']
+[5.834s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/ar_demo) by extension 'colcon_meta'
+[5.834s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/ar_demo) by extensions ['ros']
+[5.834s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/ar_demo) by extension 'ros'
+[5.890s] DEBUG:colcon.colcon_core.package_identification:Package '/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/ar_demo' with type 'ros.catkin' and name 'ar_demo'
+[5.890s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/benchmark_publisher) by extensions ['ignore', 'ignore_ament_install']
+[5.890s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/benchmark_publisher) by extension 'ignore'
+[5.890s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/benchmark_publisher) by extension 'ignore_ament_install'
+[5.890s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/benchmark_publisher) by extensions ['colcon_pkg']
+[5.890s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/benchmark_publisher) by extension 'colcon_pkg'
+[5.890s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/benchmark_publisher) by extensions ['colcon_meta']
+[5.890s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/benchmark_publisher) by extension 'colcon_meta'
+[5.891s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/benchmark_publisher) by extensions ['ros']
+[5.891s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/benchmark_publisher) by extension 'ros'
+[5.901s] DEBUG:colcon.colcon_core.package_identification:Package '/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/benchmark_publisher' with type 'ros.catkin' and name 'benchmark_publisher'
+[5.901s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/camera_model) by extensions ['ignore', 'ignore_ament_install']
+[5.902s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/camera_model) by extension 'ignore'
+[5.902s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/camera_model) by extension 'ignore_ament_install'
+[5.902s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/camera_model) by extensions ['colcon_pkg']
+[5.902s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/camera_model) by extension 'colcon_pkg'
+[5.902s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/camera_model) by extensions ['colcon_meta']
+[5.902s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/camera_model) by extension 'colcon_meta'
+[5.902s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/camera_model) by extensions ['ros']
+[5.902s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/camera_model) by extension 'ros'
+[5.903s] DEBUG:colcon.colcon_core.package_identification:Package '/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/camera_model' with type 'ros.catkin' and name 'camera_model'
+[5.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config) by extensions ['ignore', 'ignore_ament_install']
+[5.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config) by extension 'ignore'
+[5.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config) by extension 'ignore_ament_install'
+[5.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config) by extensions ['colcon_pkg']
+[5.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config) by extension 'colcon_pkg'
+[5.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config) by extensions ['colcon_meta']
+[5.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config) by extension 'colcon_meta'
+[5.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config) by extensions ['ros']
+[5.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config) by extension 'ros'
+[5.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config) by extensions ['cmake', 'python']
+[5.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config) by extension 'cmake'
+[5.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config) by extension 'python'
+[5.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config) by extensions ['python_setup_py']
+[5.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config) by extension 'python_setup_py'
+[5.905s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/3dm) by extensions ['ignore', 'ignore_ament_install']
+[5.905s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/3dm) by extension 'ignore'
+[5.905s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/3dm) by extension 'ignore_ament_install'
+[5.905s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/3dm) by extensions ['colcon_pkg']
+[5.905s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/3dm) by extension 'colcon_pkg'
+[5.905s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/3dm) by extensions ['colcon_meta']
+[5.905s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/3dm) by extension 'colcon_meta'
+[5.905s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/3dm) by extensions ['ros']
+[5.905s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/3dm) by extension 'ros'
+[5.905s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/3dm) by extensions ['cmake', 'python']
+[5.905s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/3dm) by extension 'cmake'
+[5.906s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/3dm) by extension 'python'
+[5.906s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/3dm) by extensions ['python_setup_py']
+[5.906s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/3dm) by extension 'python_setup_py'
+[5.906s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/black_box) by extensions ['ignore', 'ignore_ament_install']
+[5.906s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/black_box) by extension 'ignore'
+[5.906s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/black_box) by extension 'ignore_ament_install'
+[5.906s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/black_box) by extensions ['colcon_pkg']
+[5.906s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/black_box) by extension 'colcon_pkg'
+[5.906s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/black_box) by extensions ['colcon_meta']
+[5.906s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/black_box) by extension 'colcon_meta'
+[5.906s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/black_box) by extensions ['ros']
+[5.906s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/black_box) by extension 'ros'
+[5.907s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/black_box) by extensions ['cmake', 'python']
+[5.907s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/black_box) by extension 'cmake'
+[5.907s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/black_box) by extension 'python'
+[5.907s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/black_box) by extensions ['python_setup_py']
+[5.907s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/black_box) by extension 'python_setup_py'
+[5.907s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/cla) by extensions ['ignore', 'ignore_ament_install']
+[5.907s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/cla) by extension 'ignore'
+[5.907s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/cla) by extension 'ignore_ament_install'
+[5.907s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/cla) by extensions ['colcon_pkg']
+[5.907s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/cla) by extension 'colcon_pkg'
+[5.907s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/cla) by extensions ['colcon_meta']
+[5.907s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/cla) by extension 'colcon_meta'
+[5.907s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/cla) by extensions ['ros']
+[5.907s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/cla) by extension 'ros'
+[5.908s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/cla) by extensions ['cmake', 'python']
+[5.908s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/cla) by extension 'cmake'
+[5.908s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/cla) by extension 'python'
+[5.908s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/cla) by extensions ['python_setup_py']
+[5.908s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/cla) by extension 'python_setup_py'
+[5.908s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/euroc) by extensions ['ignore', 'ignore_ament_install']
+[5.908s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/euroc) by extension 'ignore'
+[5.908s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/euroc) by extension 'ignore_ament_install'
+[5.908s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/euroc) by extensions ['colcon_pkg']
+[5.908s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/euroc) by extension 'colcon_pkg'
+[5.908s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/euroc) by extensions ['colcon_meta']
+[5.908s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/euroc) by extension 'colcon_meta'
+[5.908s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/euroc) by extensions ['ros']
+[5.908s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/euroc) by extension 'ros'
+[5.909s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/euroc) by extensions ['cmake', 'python']
+[5.909s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/euroc) by extension 'cmake'
+[5.909s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/euroc) by extension 'python'
+[5.909s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/euroc) by extensions ['python_setup_py']
+[5.909s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/euroc) by extension 'python_setup_py'
+[5.909s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/realsense) by extensions ['ignore', 'ignore_ament_install']
+[5.909s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/realsense) by extension 'ignore'
+[5.909s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/realsense) by extension 'ignore_ament_install'
+[5.909s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/realsense) by extensions ['colcon_pkg']
+[5.909s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/realsense) by extension 'colcon_pkg'
+[5.909s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/realsense) by extensions ['colcon_meta']
+[5.909s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/realsense) by extension 'colcon_meta'
+[5.910s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/realsense) by extensions ['ros']
+[5.910s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/realsense) by extension 'ros'
+[5.910s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/realsense) by extensions ['cmake', 'python']
+[5.910s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/realsense) by extension 'cmake'
+[5.910s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/realsense) by extension 'python'
+[5.910s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/realsense) by extensions ['python_setup_py']
+[5.910s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/realsense) by extension 'python_setup_py'
+[5.910s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/tum) by extensions ['ignore', 'ignore_ament_install']
+[5.910s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/tum) by extension 'ignore'
+[5.910s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/tum) by extension 'ignore_ament_install'
+[5.910s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/tum) by extensions ['colcon_pkg']
+[5.911s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/tum) by extension 'colcon_pkg'
+[5.911s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/tum) by extensions ['colcon_meta']
+[5.911s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/tum) by extension 'colcon_meta'
+[5.911s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/tum) by extensions ['ros']
+[5.911s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/tum) by extension 'ros'
+[5.911s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/tum) by extensions ['cmake', 'python']
+[5.911s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/tum) by extension 'cmake'
+[5.911s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/tum) by extension 'python'
+[5.911s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/tum) by extensions ['python_setup_py']
+[5.911s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/config/tum) by extension 'python_setup_py'
+[5.911s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/docker) by extensions ['ignore', 'ignore_ament_install']
+[5.911s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/docker) by extension 'ignore'
+[5.912s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/docker) by extension 'ignore_ament_install'
+[5.912s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/docker) by extensions ['colcon_pkg']
+[5.912s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/docker) by extension 'colcon_pkg'
+[5.912s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/docker) by extensions ['colcon_meta']
+[5.912s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/docker) by extension 'colcon_meta'
+[5.912s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/docker) by extensions ['ros']
+[5.912s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/docker) by extension 'ros'
+[5.912s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/docker) by extensions ['cmake', 'python']
+[5.912s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/docker) by extension 'cmake'
+[5.912s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/docker) by extension 'python'
+[5.912s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/docker) by extensions ['python_setup_py']
+[5.912s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/docker) by extension 'python_setup_py'
+[5.912s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/feature_tracker) by extensions ['ignore', 'ignore_ament_install']
+[5.912s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/feature_tracker) by extension 'ignore'
+[5.913s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/feature_tracker) by extension 'ignore_ament_install'
+[5.913s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/feature_tracker) by extensions ['colcon_pkg']
+[5.913s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/feature_tracker) by extension 'colcon_pkg'
+[5.913s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/feature_tracker) by extensions ['colcon_meta']
+[5.913s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/feature_tracker) by extension 'colcon_meta'
+[5.913s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/feature_tracker) by extensions ['ros']
+[5.913s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/feature_tracker) by extension 'ros'
+[5.914s] DEBUG:colcon.colcon_core.package_identification:Package '/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/feature_tracker' with type 'ros.catkin' and name 'feature_tracker'
+[5.914s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/pose_graph) by extensions ['ignore', 'ignore_ament_install']
+[5.914s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/pose_graph) by extension 'ignore'
+[5.915s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/pose_graph) by extension 'ignore_ament_install'
+[5.915s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/pose_graph) by extensions ['colcon_pkg']
+[5.915s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/pose_graph) by extension 'colcon_pkg'
+[5.915s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/pose_graph) by extensions ['colcon_meta']
+[5.915s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/pose_graph) by extension 'colcon_meta'
+[5.915s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/pose_graph) by extensions ['ros']
+[5.915s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/pose_graph) by extension 'ros'
+[5.916s] DEBUG:colcon.colcon_core.package_identification:Package '/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/pose_graph' with type 'ros.catkin' and name 'pose_graph'
+[5.916s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files) by extensions ['ignore', 'ignore_ament_install']
+[5.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files) by extension 'ignore'
+[5.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files) by extension 'ignore_ament_install'
+[5.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files) by extensions ['colcon_pkg']
+[5.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files) by extension 'colcon_pkg'
+[5.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files) by extensions ['colcon_meta']
+[5.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files) by extension 'colcon_meta'
+[5.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files) by extensions ['ros']
+[5.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files) by extension 'ros'
+[5.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files) by extensions ['cmake', 'python']
+[5.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files) by extension 'cmake'
+[5.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files) by extension 'python'
+[5.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files) by extensions ['python_setup_py']
+[5.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files) by extension 'python_setup_py'
+[5.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files/image) by extensions ['ignore', 'ignore_ament_install']
+[5.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files/image) by extension 'ignore'
+[5.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files/image) by extension 'ignore_ament_install'
+[5.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files/image) by extensions ['colcon_pkg']
+[5.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files/image) by extension 'colcon_pkg'
+[5.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files/image) by extensions ['colcon_meta']
+[5.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files/image) by extension 'colcon_meta'
+[5.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files/image) by extensions ['ros']
+[5.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files/image) by extension 'ros'
+[5.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files/image) by extensions ['cmake', 'python']
+[5.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files/image) by extension 'cmake'
+[5.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files/image) by extension 'python'
+[5.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files/image) by extensions ['python_setup_py']
+[5.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files/image) by extension 'python_setup_py'
+[5.919s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files/paper) by extensions ['ignore', 'ignore_ament_install']
+[5.919s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files/paper) by extension 'ignore'
+[5.919s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files/paper) by extension 'ignore_ament_install'
+[5.919s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files/paper) by extensions ['colcon_pkg']
+[5.919s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files/paper) by extension 'colcon_pkg'
+[5.919s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files/paper) by extensions ['colcon_meta']
+[5.919s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files/paper) by extension 'colcon_meta'
+[5.919s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files/paper) by extensions ['ros']
+[5.919s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files/paper) by extension 'ros'
+[5.919s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files/paper) by extensions ['cmake', 'python']
+[5.919s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files/paper) by extension 'cmake'
+[5.919s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files/paper) by extension 'python'
+[5.920s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files/paper) by extensions ['python_setup_py']
+[5.920s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/support_files/paper) by extension 'python_setup_py'
+[5.920s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/vins_estimator) by extensions ['ignore', 'ignore_ament_install']
+[5.920s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/vins_estimator) by extension 'ignore'
+[5.920s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/vins_estimator) by extension 'ignore_ament_install'
+[5.920s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/vins_estimator) by extensions ['colcon_pkg']
+[5.920s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/vins_estimator) by extension 'colcon_pkg'
+[5.920s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/vins_estimator) by extensions ['colcon_meta']
+[5.920s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/vins_estimator) by extension 'colcon_meta'
+[5.920s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/vins_estimator) by extensions ['ros']
+[5.920s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/vins_estimator) by extension 'ros'
+[5.921s] DEBUG:colcon.colcon_core.package_identification:Package '/home/zhangyuanwei/slamworks/vins-mono-catkin_ws/src/VINS-Mono/vins_estimator' with type 'ros.catkin' and name 'vins_estimator'
+[5.921s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
